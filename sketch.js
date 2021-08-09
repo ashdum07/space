@@ -2,12 +2,12 @@ var iss, spacecraft, hasDocked;
 var issImage, spacecraftImage1, spacecraft2,spacecraft3, spacecraft4, bg;
 
 function preload() {
-  issImage = loadImage("./images/iss.png");
-  spacecraftImage1 = loadImage("./images/spacecraft1.png");
-  spacecraft2 = loadImage("./images/spacecraft2.png");
-  spacecraft3 = loadImage("./images/spacecraft3.png");
-  spacecraft4 = loadImage("./images/spacecraft4.png");
-  bg = loadImage("./images/spacebg.jpg");
+  issImage = loadImage("iss.png");
+  spacecraftImage1 = loadImage("spacecraft1.png");
+  spacecraft2 = loadImage("spacecraft2.png");
+  spacecraft3 = loadImage("spacecraft3.png");
+  spacecraft4 = loadImage("spacecraft4.png");
+  bg = loadImage("spacebg.jpg");
 }
 
 function setup() {
